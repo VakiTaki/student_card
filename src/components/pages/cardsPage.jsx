@@ -35,7 +35,7 @@ function CardsPage() {
             </div>
           )}
         </div>
-        <ul role="list">
+        <ul>
           {students.map((person, index) => (
             <div key={person.id} className=" rounded-md shadow-md">
               <li className="mb-2 ">

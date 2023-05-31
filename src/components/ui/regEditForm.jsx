@@ -22,6 +22,7 @@ function RegEditForm({ onSubmit, student, onBack }) {
   const [errors, setErrors] = useState({});
   useEffect(() => {
     validate();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
   const handleChange = (target) => {
     if (!isDirty) {
